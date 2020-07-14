@@ -87,7 +87,7 @@ if __name__ == '__main__':
                         help='does not use GPU')
     parser.add_argument('--tokenizer', type=str, default='dailydialog/tokenizer.pkl',
                         help='does not use GPU')
-    parser.add_argument('--inference-file', type=str, default='dailydialog/inference_sample.json',
+    parser.add_argument('--inference-file', type=str, default='inference_sample.json',
                         help='path to json file')
     parser.add_argument('--model-weights', type=str, default='checkpoints/DailyDialog/GraphGRU.pt',
                         help='path to pretrained weights')
