@@ -80,7 +80,7 @@ __Note__: Before training make sure Pytorch+cuda and Torch-Geometric+cuda versio
 
 ### Execution
 
-__Note__: PyTorch Geometric makes heavy usage of CUDA atomic operations and is a source of non-determinism. To reproduce the results reported in the paper, we recommend to use the following execution command. Note that this script will execute in CPU. We obatined weighted average F1 scores of 64.67 in our machine and 64.44 in Google colaboratory for IEMOCAP dataset with the following command.
+__Note__: PyTorch Geometric makes heavy usage of CUDA atomic operations and is a source of non-determinism.
 
 1.__Base Models__:
 - DialogRNN
